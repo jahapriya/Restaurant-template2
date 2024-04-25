@@ -1,0 +1,273 @@
+@media screen and (max-width: 768px) {
+  .alignment {
+    margin-top: 95px !important;
+  }
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100% !important;
+    flex-direction: column;
+  }
+  .iconleaf {
+    position: absolute !important;
+    right: 84% !important;
+  }
+  .headings strong.mobileview {
+    padding-left: 160px !important;
+  }
+  .column {
+    width: 80% !important;
+  }
+  .card {
+    background-color: #fff;
+    max-width: 800px;
+    height: 100% !important;
+    /* border-radius: 10px; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+.edge-image {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+/* .front_second {
+  margin-top: 55%;
+} */
+
+.corner-images {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.corner-image {
+  position: absolute;
+  width: 23.48px;
+  height: 25.58px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.icon {
+  position: absolute;
+  right: 40px;
+}
+.iconleaf {
+  position: absolute;
+  right: 45%;
+}
+
+.top-left {
+  top: 0;
+  left: 0;
+}
+.top-left1 {
+  top: 380px;
+  left: 597px;
+}
+
+.top-right {
+  top: 0;
+  right: 0;
+}
+.bottom-right1 {
+  top: 660px;
+  left: 1085px;
+  right: 0;
+}
+
+.bottom-left {
+  bottom: 0;
+  left: 0;
+}
+
+.bottom-left1 {
+  position: absolute;
+  margin-top: 72.5%;
+  margin-left: 30%;
+}
+
+.bottom-right {
+  bottom: 0;
+  right: 0;
+}
+.subtitle {
+  font-family: "Kaushan Script", cursive;
+  color: #000000;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+
+.subtitle + .subheading {
+  text-align: left;
+}
+
+.subtitle + .subheading + p {
+  text-align: left;
+}
+
+.subtitle + .subheading + p strong {
+  display: block;
+  text-align: right;
+  font-family: "Inter", cursive;
+}
+.price {
+  font-size: 4px;
+}
+
+.subheading {
+  font-size: 12px;
+  text-align: left;
+  font-weight: 600;
+  font-family: "Inter", cursive;
+}
+.subheading + p {
+  font-size: 8px;
+  text-align: left;
+  font-weight: 400;
+  font-family: "Inter", cursive;
+}
+.subheading + p strong {
+  font-size: 7px;
+  display: block;
+  font-weight: 400;
+  text-align: right;
+  font-family: "Inter", cursive;
+}
+
+.fontstyle {
+  color: #000000;
+  font-family: "Merienda", cursive;
+  font-weight: 400;
+  font-size: 24px;
+  align-items: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 150vh;
+}
+
+.column {
+  width: 45%; /* Adjust as needed */
+}
+/* .container {
+  background-color: #f5c891;
+} */
+.container {
+  background-image: url("./images/Group.png"); /* Replace 'your-image-url.jpg' with the URL or path of your image */
+  background-size: cover;
+  background-position: center;
+}
+
+.card {
+  background-color: #fff;
+  max-width: 800px;
+  height: 800px;
+  /* border-radius: 10px; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+.headings {
+  display: block;
+  padding-left: 15%;
+  color: #000000;
+}
+.top {
+  margin-left: -107px;
+  margin-top: -18px;
+}
+/* .card a {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.card a:hover {
+  background-color: #0056b3;
+} */
+
+/* body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.left-side {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.right-side {
+  flex: 1;
+}
+
+h2,
+h3 {
+  margin-top: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+} */
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
